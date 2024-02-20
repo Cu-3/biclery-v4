@@ -1,0 +1,102 @@
+.login-menu {
+    height: 360px;
+}
+.signup-div {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup22 {
+    background-color: white;
+    width: 230px;
+    height: 35px;
+    font-size: 20px;
+}
+.main-login {
+    width: 100%;
+    height: 100%;
+}
+.login-main-img {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    background-color:white;
+}
+.login-img {
+    width: 100%;
+    height: 100%;
+}
+.login-overlay {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: 0px;
+    box-shadow: 2px -12px 228px 81px rgba(255,255,255,1);
+    -webkit-box-shadow: 2px -12px 228px 81px rgba(255,255,255,1);
+    -moz-box-shadow: 2px -12px 228px 81px rgba(255,255,255,1);
+}
+.login-center {
+    position: relative;
+    margin-top: 43px;
+    width: 100%;
+    height: 280px;
+    /* background-color: red; */
+    padding-top: 10px;
+}
+.login-div1 {
+    position: relative;
+    width: 85%;
+    height: 50px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+.login-title {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 280px;
+    /* border: 1px solid black; */
+}
+.login-title1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.login-title2 {
+    text-align: center;
+    color: #2a3638;
+}
+.login-icon {
+    position: absolute;
+    left: 20px;
+    top: 9px;
+    width: 30px;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+.login-ico {
+    width: 100%;
+    height: 100%;
+}
+.login-content {
+    width: 230px;
+    margin-left: 55px;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-btn {
+    color: #e3651c;
+    text-decoration: none;
+    font-size: 18px;
+}
+.login-content:hover .login-btn{
+    color:#d34d00;
+}
